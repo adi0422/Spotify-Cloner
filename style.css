@@ -14,15 +14,16 @@
     background-color: #121212;
     width: 340px;
     border-radius: 1rem;
+    margin: 0.5rem;
 }
 .main-content{
-    background-color: b#121212;
+    background-color: #121212;
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
 }
 .music-player{
-        background-color: black;
+        background-color: #232323;
         position:fixed;
         bottom: 0;
         width: 100%;
@@ -86,4 +87,66 @@ a{
 .icons i:hover{
     opacity: 1;
     
+}
+.box{
+    height: 9rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    background-color: #232323;
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+    padding: 0.5rem 1rem;
+    background-color: #232323;
+}
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding:  0.25rem 1rem;
+    font-weight: 700;
+    color: #121212;
+    margin:0.5rem ;
+    height: 2rem;
+    width: fit-content;
+}
+.dark-badge{
+    background-color: #000 ;
+    color:#fff;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+.sticky-nav-options{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sticky-nav-icons  {
+       margin-left: 0.75rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
 }
